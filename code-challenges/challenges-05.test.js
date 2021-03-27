@@ -24,8 +24,14 @@ let starWarsPeople = [
   }
 ];
 
-const sortStarWarsCharacters = (starWarsArr) => {
+const sortStarWarsCharacters = (starWarsPeople) => {
   // Solution code here...
+  starWarsPeople.sort(function(a, b) { 
+    return b.height - a.height
+  })
+  return starWarsPeople
+
+
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -100,7 +106,6 @@ Use slice for this function, maybe more than once. The Array.indexOf() method ma
 
 Do not use split for this function.
 ------------------------------------------------------------------------------------------------ */
-gruffaloCrumble.ingredients[0]
 const gruffaloCrumble = {
   name: 'How to make a Gruffalo Crumble',
   ingredients: [
@@ -132,7 +137,7 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  
   return result;
 };
 
@@ -146,7 +151,14 @@ You may also use other string or array methods.
 
 const splitFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  gruffaloCrumble.ingredients.forEach((element) => {
+    let split =  element.split(" ")
+    let splice = split.splice(2, gruffaloCrumble.ingredients[0].split(" ").length)
+    let join = splice.join(' ')
+    result.push(join)
+    
+  })
+  result.splice(11, result.length)
   return result;
 };
 
@@ -163,6 +175,11 @@ Return a new array containing just the verbs. For example, ['Mix until evenly di
 const stepActions = (recipe) => {
   let result = [];
   // Solution code here...
+  gruffaloCrumble.steps.forEach((element) => {
+    let arr = element.split(" ")
+    
+    result.push(arr[0])
+  })
   return result;
 };
 
