@@ -151,7 +151,7 @@ You may also use other string or array methods.
 
 const splitFoods = (recipe) => {
   let result = [];
-  gruffaloCrumble.ingredients.forEach((element) => {
+  recipe.ingredients.forEach((element) => {
     let split =  element.split(" ")
     let splice = split.splice(2, gruffaloCrumble.ingredients[0].split(" ").length)
     let join = splice.join(' ')

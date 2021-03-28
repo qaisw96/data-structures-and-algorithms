@@ -83,8 +83,6 @@ Return an array containing all the matches.
 const isCapitalized = (str) => {
   ley arr = []
   let check = str.match("\\b(([A-Z]\\S*)|and|or|the)\\b")
-  
-
 
 };
 
