@@ -86,6 +86,9 @@ Note that when you check your code into GitHub, all of your tests will automatic
 
 
 
+
+
+
 ## Whiteboard-01  
 
-![reverse](./javascript/assets/array-reverse.)
+![reverse](./assets/array-reverse.jpg)
