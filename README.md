@@ -6,22 +6,24 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 ### 301 Code Challenges
 
+
 Under the `data-structures-and-algorithms` repository, at the top level is a folder called `code-challenges`
 
 Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course
 
 
 
 
 ## Code Challenges links :
 
+
 Code challenge | Link | Code challenge | Link
 ------- | --------- | -------- | ----------
- code01 | [click-here]() | code21 | [click-here]()
+ code01 | [click-here](/ddddd) | code21 | [click-here]()
  code02 | [click-here]() | code22 | [click-here]()
  code03 | [click-here]() | code23 | [click-here]()
  code04 | [click-here]() | code24 | [click-here]()
